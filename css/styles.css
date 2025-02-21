@@ -1,0 +1,249 @@
+/* Soft reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+/* Global */
+@font-face {
+    font-family: "Breaking B";
+    src: url("fonts/Breaking\ Bad.ttf");
+}
+
+
+/* index.html */
+#logo {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+#poster {
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+
+.index-body {
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.index-header {
+    margin: 1.3em auto 0.5em;
+}
+
+.index-header a {
+    display: inline-block;
+}
+
+.index-section {
+    margin: 0.5em auto 1.2em;
+}
+
+.quote-h1 {
+    margin: 0.3em auto 0.65em;
+    color: white;
+    font-size: 2.1em;
+    font-family: "Breaking B";
+    text-shadow: 2.5px 2.5px 2.5px black;
+}
+
+
+/* Formulario.html */
+.form-body {
+    background-color: #a4aa4cb1;
+    font-family: Helvetica, sans-serif;
+}
+
+.form-section {
+    margin: 1em auto 1.6em;
+}
+
+.form-h1 {
+    margin: 0 auto 0.8em;
+    text-align: center;
+    font-size: 1.5em;
+} 
+
+.form-section form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 1em 2.5em;
+    border: 1px solid #c9c4c4;
+    border-radius: 1em;
+    background-color: #f4f4f4;
+}
+
+.form-section form h2 {
+    margin: 0 auto 0.65em;
+    font-size: 1.3em;
+    color: rgb(85, 85, 85);
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    resize: vertical;
+    border-color: #e5e5e5;
+}
+
+input[type="radio"] {
+    width: 13px;
+    height: 13px;
+    margin-right: 0.2em;
+}
+
+select, input[type="date"] {
+    padding: 5px;
+    width: 35%;
+    border-radius: 5px;
+    border-color: #e3e3e3;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border-color: #e5e5e5;
+}
+
+input[type="submit"] {
+    width: 28%;
+    margin-top: 0.3em;
+    margin-bottom: 0.5em;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(80, 150, 80);
+    border-radius: 5px;
+    border-color: #858b93;
+}
+
+input[type="reset"] {
+    width: 28%;
+    margin-top: 0.3em;
+    margin-bottom: 0.5em;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #e3e3e3;
+}
+
+
+/* Tabla.html */
+#hs-cell {
+    background: url("../img/tabla/hankschrader.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    empty-cells: show;
+}
+
+.t-body {
+    background-color: #637124;
+    text-align: center;
+}
+
+.t-body section {
+    margin: 1em auto;
+}
+
+.t-body section table {
+    margin: 0 auto;
+    background-color: #0c3e11;
+    empty-cells: hide;
+}
+
+.t-body td {
+    width: 80px;
+    height: 70px;
+    padding: 0;
+    border: 3px solid #0c3e11;
+}
+
+.t-body td img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+.t-body span {
+    font-family: Helvetica, sans-serif;
+    display: block;
+    line-height: 1;
+}
+
+.element {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.element-name {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.table1-color1 {
+    background-color: #d5e979;
+}
+
+.table1-color2 {
+    background-color: #89a419;
+}
+
+.table1-color3 {
+    background-color: #637123;
+}
+
+.table1-color4 {
+    background-color: #bcc49f;
+}
+
+.table1-color5 {
+    background-color: #c5e24c;
+}
+
+.table1-color6 {
+    background-color: #828d54;
+}
+
+.table1-color7 {
+    background-color: #eff7c6;
+}
+
+.table1-color8 {
+    background-color: #b7db21;
+}
+
+.table1-color9 {
+    background-color: #ab8fcc;
+}
+
+.table2-color {
+    background-color: #c2c629;
+}
+
+
+/* intro.html */
+.intro-body {
+    background-color: black;
+}
+
+.intro-section {
+    margin: 2em auto;
+    text-align: center;
+}
+
+.intro-section video {
+    display: block;
+    margin: 0 auto;
+    width: 720px;
+    height: 480px;
+}
